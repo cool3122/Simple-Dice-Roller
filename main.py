@@ -28,6 +28,7 @@ def roll_dice():
 
         Total_Label.config(text=f"Total: {total}")
 
+    #hi
     except ValueError:
         Total_Label.config(text="Please enter valid numbers.")
 
